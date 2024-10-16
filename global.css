@@ -6,8 +6,6 @@
     font-family: "Inter", sans-serif;
 }
 
-  
-
 #navbar {
     position: absolute;
     top: 2%;
@@ -23,17 +21,18 @@
     background-color: #131315;
 }
 
+#navbar a:hover{
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #1877F2;
+}
+
 #navbar a {
     color: white;
     text-decoration: none;
     transition: 0.5s all;
 }
 
-#navbar a:hover{
-    font-weight: 500;
-    text-decoration: underline;
-    text-decoration-color: #1877F2;
-}
 
 /* HOMEPAGE */
 
